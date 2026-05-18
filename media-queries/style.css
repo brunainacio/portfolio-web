@@ -16,19 +16,26 @@ body {
     color: white;
     text-align: center;
     border-radius: 8px;
+    font-size: 24px;
 }
 
 /* Media Query */
 @media (max-width: 768px) {
 
-    /* Em telas menores os itens ficam em coluna */
-        .container {
+    /* Altera a direção dos elementos */
+    .container {
         flex-direction: column;
     }
 
-    /* Altera a cor das caixas */
-        .box {
+    /* Alteração de cores e texto */
+    .box {
         background-color: #B07A80;
+        font-size: 18px;
+    }
+
+    /* Centraliza os elementos */
+    .container {
+        align-items: center;
     }
 
 }
