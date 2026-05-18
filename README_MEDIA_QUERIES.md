@@ -9,7 +9,6 @@ Conceitos e Funcionalidades:
     @media (condição) {
 
       /* regras CSS */
-
 }
 
   Esse recurso é muito utilizado no desenvolvimento de sites responsivos para: adaptar layouts, reorganizar elementos, alterar tamanhos de fontes e imagens... No geral, adaptando os elementos para o dispositivo que está acessadando a página. 
