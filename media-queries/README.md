@@ -3,7 +3,7 @@
 
 ## Conceito
 
-As medias queries são recursos que permitem alterar o estilo de uma página de acordo com o dispositivo que está sendo acessado. . 
+As medias queries são recursos que permitem alterar o estilo de uma página de acordo com o dispositivo que está sendo acessado.
 
 ---
 
