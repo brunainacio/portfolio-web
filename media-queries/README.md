@@ -9,7 +9,8 @@ As medias queries são recursos que permitem alterar o estilo de uma página de 
 
 ## Funcionamento
 
-As medias queries funcionam definindo condições para aplicar os estilos. Quando uma condição é verdadeira, ela é executada. É possível alterar altura, largura, orientação e resolução. 
+As medias queries funcionam definindo condições para aplicar os estilos. Quando uma condição é verdadeira, ela é executada. 
+As principais alterações que são feitas com as medias queries são: layout, texto e cores. 
 
 ---
 
