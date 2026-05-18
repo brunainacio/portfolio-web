@@ -9,7 +9,7 @@ O Flexbox possibilita organizar, alinhar e distribuir espaço entre itens em um 
 
 ## Funcionamento
 
-
+Algumas proriedades devem ser definidas no contêiner (elemento pai) enquanto outras devem ser definidas nos filhos (itens flexíveis). 
 
 ---
 
