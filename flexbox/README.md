@@ -34,7 +34,6 @@ O flexbox é muito utilizado para:
 
 ## Exemplo prático
 
-@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
