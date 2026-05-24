@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Exemplo Flexbox</title>
+
+<style>
+
+/* Container principal */
+.container {
+  display: flex; /* Ativa o Flexbox */
+
+  justify-content: space-around; /* Distribui espaço entre os itens */
+
+  align-items: center; /* Centraliza os itens verticalmente */
+
+  height: 200px;
+  background: lightgray;
+}
+
+/* Caixas */
+.box {
+  width: 80px;
+  height: 80px;
+
+  background: pink;
+
+  display: flex; /* Flexbox dentro da caixa */
+
+  justify-content: center;
+  align-items: center;
+  /* Centraliza o número */
+
+  font-size: 20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="box">1</div>
+
+  <div class="box">2</div>
+
+  <div class="box">3</div>
+
+</div>
+
+</body>
+</html>
