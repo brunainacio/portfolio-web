@@ -1,32 +1,44 @@
+<!DOCTYPE html>
 <html>
 <head>
 <style>
-  
+
 .container {
-  display: grid; /* Ativa o CSS Grid */
-  grid-template-columns: auto auto auto; /* Cria 3 colunas automáticas
-                                            auto = largura automática baseada no conteúdo disponível */
-                                                                                                   
-  background-color: dodgerblue; 
-  padding: 10px;
+
+    display: grid; /* define o comportamento da grid */
+    grid-template-columns: 150px 150px 150px;  /* define quantidade e tamanho das colunas */
+    grid-template-rows: 100px 100px; /* define quantidade e tamanho das linhas */
+    gap: 15px; /* espaçamento entre linhas e colunas */
+    justify-content: center; /* alinha a grade horizontalmente */
+    align-content: center; /* alinha a grade verticalmente */
+    justify-items: center; /* alinha itens horizontalmente */
+    align-items: center; /* alinha itens verticalmente */
+    background-color: lightblue;
+    height: 400px;
+    padding: 20px;
 }
-.container div {
-  background-color: #f1f1f1;
-  border: 1px solid black;
-  padding: 10px;
-  font-size: 30px;
-  text-align: center;
+
+/* Itens da grade */
+.item {
+    background-color: white;
+    border: 2px solid black;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
 }
+
 </style>
 </head>
+
 <body>
 
 <div class="container">
-  <div>1</div>
-  <div>2</div>
-  <div>3</div>
-  <div>4</div>
-  <div>5</div>
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+    <div class="item">6</div>
 </div>
 
 </body>
