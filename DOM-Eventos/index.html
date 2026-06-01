@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Dom e Eventos</title>
+
+    <style>
+        body {
+            background-color: lightgray;
+            font-family: Arial, sans-serif;
+        }
+
+        .highlight {
+            background-color: yellow;
+            padding: 10px;
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <h1>Hello, World!</h1>
+        <p>Welcome to learning about the DOM.</p>
+    </div>
+
+    <section>
+        <h2>Section Title</h2>
+        <p>This is a section of the webpage.</p>
+    </section>
+
+    <div class="highlight">
+        <p>This content is highlighted.</p>
+    </div>
+
+    <button id="changeBtn">Modificar Página</button>
+
+    <script>
+        // Selecionando elementos do DOM
+        const container = document.getElementById("container");
+        const sectionEl = document.querySelector("section");
+        const highlightEl = document.querySelector(".highlight");
+        const button = document.getElementById("changeBtn");
+
+        console.log(container);
+        console.log(sectionEl);
+        console.log(highlightEl);
+
+        // Evento de clique
+        button.addEventListener("click", () => {
+            container.style.backgroundColor = "lightblue";
+
+            sectionEl.querySelector("h2").textContent =
+                "Título alterado pelo JavaScript";
+
+            highlightEl.style.border = "3px solid red";
+
+            alert("Você clicou no botão!");
+        });
+
+        // Evento ao passar o mouse
+        highlightEl.addEventListener("mouseover", () => {
+            highlightEl.style.backgroundColor = "orange";
+        });
+
+        // Evento ao retirar o mouse
+        highlightEl.addEventListener("mouseout", () => {
+            highlightEl.style.backgroundColor = "yellow";
+        });
+    </script>
+
+</body>
+</html>
