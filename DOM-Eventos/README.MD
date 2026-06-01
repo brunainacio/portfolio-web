@@ -36,7 +36,7 @@ HTML
 
 O DOM é utilizado sempre que o JavaScript precisa interagir com uma página da web. Exemplos de uso: 
 
-* Altear conteúdo da página
+* Alterar conteúdo da página
 * Modificar estilos
 * Responder a eventos
 * Criar ou remover elementos
@@ -45,63 +45,15 @@ O DOM é utilizado sempre que o JavaScript precisa interagir com uma página da 
 
 ---
 
-## Exemplo prático
-```
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Exemplo de DOM</title>
+# Eventos
 
-    <style>
-        body {
-            background-color: lightgray;
-            font-family: Arial, sans-serif;
-        }
+Eventos são ações que acontecem na página e podem ser detectadas pelo JavaScript. Quando um evento ocorre uma função pode ser executada para responder essa ação. Exemplos: 
 
-        .highlight {
-            background-color: yellow;
-            padding: 10px;
-        }
-    </style>
-</head>
-<body>
-
-    <div id="container">
-        <h1>Hello, World!</h1>
-        <p>Welcome to learning about the DOM.</p>
-    </div>
-
-    <section>
-        <h2>Section Title</h2>
-        <p>This is a section of the webpage.</p>
-    </section>
-
-    <div class="highlight">
-        <p>This content is highlighted.</p>
-    </div>
-
-    <script>
-        // Selecionando pelo ID
-        const container = document.getElementById("container");
-        console.log("Elemento encontrado por ID:");
-        console.log(container);
-
-        // Selecionando pela tag
-        const sectionEl = document.querySelector("section");
-        console.log("Elemento encontrado pela tag:");
-        console.log(sectionEl);
-
-        // Selecionando pela classe
-        const highlightEl = document.querySelector(".highlight");
-        console.log("Elemento encontrado pela classe:");
-        console.log(highlightEl);
-    </script>
-
-</body>
-</html>
-```
-
+* Clicks
+* Input
+* Submit
+* Mouseover
+* Load
 
 
 
