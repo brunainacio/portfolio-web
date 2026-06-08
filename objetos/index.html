@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Objetos - Jogos</title>
+</head>
+<body>
+
+    <h1>Ficha do Personagem</h1>
+
+    <button onclick="mostrarPersonagem()">
+        Exibir Personagem
+    </button>
+
+    <p id="resultado"></p>
+
+    <script>
+        const personagem = {
+            nome: "Sage",
+            classe: "Mago",
+            nivel: 50,
+            vida: 3200
+        };
+
+        function mostrarPersonagem() {
+            document.getElementById("resultado").innerHTML =
+                `Nome: ${personagem.nome}<br>
+                 Classe: ${personagem.classe}<br>
+                 Nível: ${personagem.nivel}<br>
+                 Vida: ${personagem.vida}`;
+        }
+    </script>
+
+</body>
+</html>
