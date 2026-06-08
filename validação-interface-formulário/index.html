@@ -6,23 +6,30 @@
 <body>
 
 <form>
+
+    <!-- Campo obrigatório para informar o nome -->
     <label>Nome:</label>
     <input type="text" required>
     <br><br>
 
+    <!-- Valida se o e-mail está em um formato válido -->
     <label>E-mail:</label>
     <input type="email" required>
     <br><br>
 
+    <!-- Exige uma senha com no mínimo 8 caracteres -->
     <label>Senha:</label>
     <input type="password" minlength="8" required>
     <br><br>
 
+    <!-- Permite apenas idades entre 18 e 100 anos -->
     <label>Idade:</label>
     <input type="number" min="18" max="100" required>
     <br><br>
 
+    <!-- Botão para enviar o formulário -->
     <button type="submit">Enviar</button>
+
 </form>
 
 </body>
