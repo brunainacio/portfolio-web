@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Arrays - Jogos</title>
+</head>
+<body>
+
+    <h1>Personagens Disponíveis</h1>
+
+    <button onclick="mostrarPersonagens()">
+        Mostrar Personagens
+    </button>
+
+    <p id="resultado"></p>
+
+    <script>
+        const personagens = [
+            "Sage",
+            "Skadi",
+            "Hotdoly",
+            "TWS"
+        ];
+
+        function mostrarPersonagens() {
+            document.getElementById("resultado").innerHTML =
+                personagens.join(" | ");
+        }
+    </script>
+
+</body>
+</html>
